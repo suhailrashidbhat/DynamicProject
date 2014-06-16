@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A44B3EC194D868F001E4DE6 /* IMAG1092.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A44B3EB194D868F001E4DE6 /* IMAG1092.jpg */; };
 		1AFDFCF9194D838100A68A8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFCF8194D838100A68A8E /* main.m */; };
 		1AFDFCFC194D838100A68A8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFCFB194D838100A68A8E /* AppDelegate.m */; };
 		1AFDFCFF194D838100A68A8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFCFE194D838100A68A8E /* ViewController.m */; };
 		1AFDFD02194D838100A68A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDFD00194D838100A68A8E /* Main.storyboard */; };
 		1AFDFD04194D838100A68A8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDFD03194D838100A68A8E /* Images.xcassets */; };
 		1AFDFD10194D838100A68A8E /* DynamicsProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFDFD0F194D838100A68A8E /* DynamicsProjectTests.m */; };
+		1AFDFD1A194D845F00A68A8E /* sorry1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AFDFD19194D845F00A68A8E /* sorry1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A44B3EB194D868F001E4DE6 /* IMAG1092.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMAG1092.jpg; sourceTree = "<group>"; };
 		1AFDFCF3194D838100A68A8E /* DynamicsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFDFCF7194D838100A68A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AFDFCF8194D838100A68A8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		1AFDFD09194D838100A68A8E /* DynamicsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFDFD0E194D838100A68A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AFDFD0F194D838100A68A8E /* DynamicsProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicsProjectTests.m; sourceTree = "<group>"; };
+		1AFDFD19194D845F00A68A8E /* sorry1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sorry1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				1AFDFCFE194D838100A68A8E /* ViewController.m */,
 				1AFDFD00194D838100A68A8E /* Main.storyboard */,
 				1AFDFD03194D838100A68A8E /* Images.xcassets */,
+				1A44B3EB194D868F001E4DE6 /* IMAG1092.jpg */,
+				1AFDFD19194D845F00A68A8E /* sorry1.gif */,
 				1AFDFCF6194D838100A68A8E /* Supporting Files */,
 			);
 			path = DynamicsProject;
@@ -197,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFDFD02194D838100A68A8E /* Main.storyboard in Resources */,
+				1A44B3EC194D868F001E4DE6 /* IMAG1092.jpg in Resources */,
 				1AFDFD04194D838100A68A8E /* Images.xcassets in Resources */,
+				1AFDFD1A194D845F00A68A8E /* sorry1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +276,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Suhail Rashid Bhat (Z449ML7358)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -285,9 +294,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "CA7897EC-CA9A-4CB3-A0C2-896DE2331B18";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -309,6 +319,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Suhail Rashid Bhat (Z449ML7358)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -320,8 +331,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "CA7897EC-CA9A-4CB3-A0C2-896DE2331B18";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -333,6 +345,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DynamicsProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -344,6 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DynamicsProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -404,6 +418,7 @@
 				1AFDFD15194D838100A68A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AFDFD16194D838100A68A8E /* Build configuration list for PBXNativeTarget "DynamicsProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +427,7 @@
 				1AFDFD18194D838100A68A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
